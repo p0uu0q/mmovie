@@ -1,0 +1,351 @@
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #252525;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: rgb(255, 255, 255);
+
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #687c74;
+  padding: 10px;
+}
+
+.topnav a{
+  float: left;
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size:  1.2em;
+  text-transform: uppercase;
+}
+
+.topnav .search-container{
+  float: right;
+}
+
+form{
+  background-color: #252525;
+  width: 300px;
+  height: 43px;
+  border-radius: 11px;
+  display: flex;
+  align-items : center;
+}
+
+input {
+  all: unset;
+  font: 15px system-ui;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 9px;
+}
+
+.thumbnail {
+  border-radius: 19px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
+  overflow: hidden;
+  white-space: nowrap;
+} */
+
+/* .card{
+  border-radius: 19px;
+  padding: 15px;
+  text-align: center;
+  background-color: #687c74;
+  overflow: hidden;
+  white-space: nowrap;
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: #666;
+}
+
+nav ul li {
+  flex: 1;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+}
+
+#movie-list {
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+#movie-list h2 {
+  text-align: center;
+}
+
+#movie-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#movie-list li {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+}
+
+#movie-list img {
+  max-width: 100%;
+}
+
+#movie-list p {
+  margin-top: 10px;
+  font-weight: bold;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+}
+
+.container{
+    font-size: 16px;
+    width: 90vw;
+    max-width: 37.5em;
+    padding: 3em 1.8em;
+    background-color: #1e293b;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 0.6em;
+    box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+}
+
+.search-container{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1.2em;
+}
+
+.search-container input, .search-container button{
+    font-size: 0.9em;
+    outline: none;
+    border-radius: 0.3em;
+}
+
+.search-container input{
+    background-color: transparent;
+    border: 1px solid #a0a0a0;
+    color: #fff;
+    padding: 0.7em;
+}
+
+.search-container input:focus{
+    border-color: #fff;
+}
+
+.search-container button{
+    background-color: #ffb92a;
+    border: none;
+    cursor: pointer;
+}
+
+#result{
+    color: #fff;
+}
+
+.info{
+    position: relative;
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+    margin-top: 1.2em;
+}
+
+.poster{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6em;
+    margin: 0.6em 0 0.9em 0;
+}
+
+.rating img{
+    width: 1.2em;
+}
+
+.rating h4{
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.details{
+    display: flex;
+    font-size: 0.95em;
+    gap: 1em;
+    justify-content: center;
+    color: #a0a0a0;
+    margin: 0.6em 0;
+    font-weight: 300;
+}
+
+.genre{
+    display: flex;
+    justify-content: space-around;
+}
+
+.genre div{
+    border: 1px solid #a0a0a0;
+    font-size: 0.75em;
+    padding: 0.4em 1.6em;
+    border-radius: 0.4em;
+    font-weight: 300;
+}
+
+h3{
+    font-weight: 500;
+    margin-top: 1.2em;
+}
+
+p{
+    font-size: 0.9em;
+    font-weight: 300;
+    line-height: 1.8em;
+    text-align: justify;
+    color: #a0a0a0;
+}
+
+.msg{
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        font-size: 14px;
+    }
+    .poster{
+        margin: auto;
+        width: auto;
+        max-height: 10.8em;
+    }
+
+    .info{
+        grid-template-columns: 1fr;
+    }
+
+}
